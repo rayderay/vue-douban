@@ -1,14 +1,382 @@
 <template>
-	<div class="home-content">
-		<div class="tab">
-			<div class="tab-item">
-				<p class="status">动态</p>
-				</div>
-			<div class="tab-item">
-				<p class='recommend'>推荐</p>
-			</div>
-		</div>
-		<div class="tab-content" ref="wrapper">
+  <div class="home-content">
+    <div class="tab">
+      <div class="tab-item">
+        <p class="status">动态</p>
+      </div>
+      <div class="tab-item">
+        <p class='recommend'>推荐</p>
+      </div>
+    </div>
+    <div class="item-content" ref="horWrapper">
+      <ul class="item" ref="tabWrapper">
+        <li class="item-box item1" ref="tabItem">
+          <div class="tab-content" ref="wrapper">
+            <ul>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </li>
+        <li class="item-box item2" ref="tabItem">
+          <div class="tab-content" ref="wrapper">
+            <ul>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="tab-box">
+                <div class="box-title">
+                  <img src="../../common/img/home/img.jpeg">
+                  <div class="box-text">
+                    <p class="name">Ray</p>
+                    <p class="status">say</p>
+                  </div>
+                </div>
+                <div class="box-content">
+                  <p>诗人落进诗的圈套<br> 他一夜白了头
+                    <br> 满楼狂风
+                  </p>
+                  <div class="operate">
+                    <div>
+                      <img src="../../common/img/home/good.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/message.png">
+                    </div>
+                    <div>
+                      <img src="../../common/img/home/trans.png">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="tab-content" ref="wrapper">
       <ul>
         <li class="tab-box">
           <div class="box-title">
@@ -19,9 +387,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -45,9 +412,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -71,9 +437,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -97,9 +462,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -123,9 +487,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -149,9 +512,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -175,9 +537,8 @@
             </div>
           </div>
           <div class="box-content">
-            <p>诗人落进诗的圈套<br>
-              他一夜白了头<br>
-              满楼狂风
+            <p>诗人落进诗的圈套<br> 他一夜白了头
+              <br> 满楼狂风
             </p>
             <div class="operate">
               <div>
@@ -193,9 +554,9 @@
           </div>
         </li>
       </ul>
-      
-		</div>
-	</div>
+
+    </div> -->
+  </div>
 </template>
 
 <script>
@@ -214,8 +575,15 @@ export default {
   },
   methods: {
     _initScroll() {
-      console.log(2);
-      this.wrapperScroll = new BScroll(this.$refs.wrapper, {});
+      let width = 0;
+      width = this.$refs.tabItem[0].getBoundingClientRect().width;
+      this.$refs.tabWrapper.style.width = width + "px";
+      //this.wrapperScroll = new BScroll(this.$refs.wrapper, {});
+      this.scroll = new BScroll(this.$refs.horWrapper, {
+        startX: 0,
+        click: true,
+        scrollX: true
+      });
     }
   }
 };
@@ -251,6 +619,10 @@ export default {
         margin-right: 60%;
       }
     }
+  }
+  .item-content {
+    width: 100%;
+    overflow: hidden;
   }
   .tab-content {
     position: absolute;
