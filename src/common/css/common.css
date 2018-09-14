@@ -1,0 +1,14 @@
+body,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
