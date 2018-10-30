@@ -1,58 +1,69 @@
 <template>
-<div class="id">
-  <router-view ></router-view>
-	<div class="tab">
-		<div class="tab-item">
-			<router-link to='/home' class="item">
-				<img class="icon"  src="./common/img/bottom/icon-home.png">
-				<p class="text">首页</p>
-			</router-link>
-		</div>
-		<div class="tab-item" >
-			<router-link to="/book" class="item">
-				<img src="./common/img/bottom/icon-book.png">
-				<p class="text">书影音</p>
-			</router-link>
-		</div>
-		<div class="tab-item">
-			<router-link to="/mine" class="item">
-				<img src="./common/img/bottom/home-mine.png">
-				<p class="text">我的</p>
-			</router-link>
-		</div>
-	</div>
-</div>
-	
-</template>
+  <div class="id">
+    <router-view class="view"></router-view>
+    <router-view class="view" name="subject"></router-view>
+    <router-view class="view" name="search"></router-view>
+  </div>
 
+</template>
+  
 
 <script>
-export default {};
+export default {
+  name: "app"
+};
 </script>
 
 <style lang="scss" scoped>
-.tab {
+// Base setting and rest
+html {
+  font-size: 62.5%;
+}
+
+#app {
+  max-width: 41.2rem;
+  margin: 0 auto;
+}
+
+.has-header {
+  margin-top: 4.8rem;
+}
+
+h2 {
+  font-size: 1.68rem;
+  font-weight: normal;
+  color: #111;
+}
+
+ul,
+li,
+a,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Common style
+.header-bar {
   position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 998;
   display: flex;
-  bottom: 0px;
-  left: 0px;
-  height: 40px;
-  width: 100%;
-  border-top: 1px solid #e6e6e6;
-  .tab-item {
-    flex: 1;
-    text-align: center;
-    .item {
-      display: inline-block;
-      width: 100px;
-      .text {
-        color: #a09b9b;
-        font-size: 10px;
-        -webkit-transform: scale(0.8);
-        margin-top: -11px;
-      }
-    }
-  }
+  align-items: center;
+  height: 4.8rem;
+  padding: 0 1.8rem;
+  background: #fff;
+  border-bottom: 0.1rem solid #f3f3f3;
 }
 </style>
 
