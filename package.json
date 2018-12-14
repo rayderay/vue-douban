@@ -14,6 +14,7 @@
     "superagent": "^4.0.0",
     "superagent-jsonp": "^0.2.1",
     "vue": "^2.5.2",
+    "vue-infinite-loading": "^2.4.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
