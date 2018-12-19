@@ -23,7 +23,7 @@ const actions = {
           state.skip +
           "&count=3"
       )
-      .use(jsonp)
+      .use(jsonp({ timeout: 10000 }))
       .end((err, res) => {
         if (!err) {
           commit({

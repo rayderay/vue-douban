@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import PageView from "../views/PageView";
 import HomeView from "../views/HomeView";
+import MovieView from "../views/MovieView";
 
 Vue.use(Router);
 
@@ -24,7 +25,8 @@ export default new Router({
           path: "home",
           name: "HomeView",
           component: HomeView
-        }
+        },
+        { path: "movie", name: "MovieView", component: MovieView }
       ]
     }
   ]

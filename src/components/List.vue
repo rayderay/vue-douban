@@ -1,7 +1,7 @@
 <template>
   <div class="list">
     <template v-for="item in items">
-      <router-link class="thumbnail">
+      <a class="thumbnail">
         <div class="content">
           <img
             :src="item.image_hlarge"
@@ -19,7 +19,7 @@
             本活动来自栏目 {{item.subcategory_name}}
           </span>
         </div>
-      </router-link>
+      </a>
     </template>
   </div>
 </template>

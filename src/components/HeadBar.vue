@@ -6,8 +6,13 @@
       </router-link>
     </h1>
     <ul class="nav">
-      <li style="color: #2384E8">
-        电影
+      <li>
+        <router-link
+          style="color: #2384E8"
+          :to="{ name: 'MovieView'}"
+        >
+          电影
+        </router-link>
       </li>
       <li style="color: #9F7860">
         图书

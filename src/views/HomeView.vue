@@ -3,7 +3,7 @@
     <quick-nav></quick-nav>
     <list :items="events"> </list>
     <infinite-loading
-      :on-infinite="onInfinite"
+      @infinite="onInfinite"
       ref="infiniteLoading"
     >
       <loading slot="spinner"></loading>
