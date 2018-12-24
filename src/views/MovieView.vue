@@ -20,6 +20,7 @@
       title="发现好电影"
       :items='movieTags'
     ></scroller>
+    <types></types>
   </div>
 </template>
 
@@ -27,9 +28,10 @@
 import { mapState } from "vuex";
 
 import scroller from "../components/Scroller";
+import Types from "../components/Types";
 export default {
   name: "movie-view",
-  components: { scroller },
+  components: { scroller, Types },
   data() {
     return {};
   },

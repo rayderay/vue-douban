@@ -14,8 +14,13 @@
           电影
         </router-link>
       </li>
-      <li style="color: #9F7860">
-        图书
+      <li>
+        <router-link
+          style="color: #9F7860"
+          :to="{ name: 'BookView'}"
+        >
+          图书
+        </router-link>
       </li>
       <li style="color: #E4A813">
         广播
