@@ -22,8 +22,13 @@
           图书
         </router-link>
       </li>
-      <li style="color: #E4A813">
-        广播
+      <li>
+        <router-link
+          style="color: #E4A813"
+          :to="{ name: 'BroadcastView'}"
+        >
+          广播
+        </router-link>
       </li>
       <li style="color: #2AB8CC">
         小组

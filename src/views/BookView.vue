@@ -37,6 +37,7 @@
       :items="bookTags"
     ></scroller>
     <types></types>
+    <download-app></download-app>
   </div>
 </template>
 
@@ -45,10 +46,11 @@ import { mapState } from "vuex";
 
 import Scroller from "../components/Scroller";
 import Types from "../components/Types";
+import DownloadApp from "../components/DownloadApp";
 
 export default {
   name: "book-view",
-  components: { Scroller, Types },
+  components: { Scroller, Types, DownloadApp },
   data() {
     return {};
   },

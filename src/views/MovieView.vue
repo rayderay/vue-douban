@@ -21,6 +21,7 @@
       :items='movieTags'
     ></scroller>
     <types></types>
+    <download-app></download-app>
   </div>
 </template>
 
@@ -29,9 +30,10 @@ import { mapState } from "vuex";
 
 import scroller from "../components/Scroller";
 import Types from "../components/Types";
+import DownloadApp from "../components/DownloadApp";
 export default {
   name: "movie-view",
-  components: { scroller, Types },
+  components: { scroller, Types, DownloadApp },
   data() {
     return {};
   },

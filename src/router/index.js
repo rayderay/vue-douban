@@ -5,6 +5,7 @@ import PageView from "../views/PageView";
 import HomeView from "../views/HomeView";
 import MovieView from "../views/MovieView";
 import BookView from "../views/BookView";
+import BroadcastView from "../views/BroadcastView";
 
 Vue.use(Router);
 
@@ -28,7 +29,8 @@ export default new Router({
           component: HomeView
         },
         { path: "movie", name: "MovieView", component: MovieView },
-        { path: "book", name: "BookView", component: BookView }
+        { path: "book", name: "BookView", component: BookView },
+        { path: "broadcast", name: "BroadcastView", component: BroadcastView }
       ]
     }
   ]
