@@ -6,6 +6,7 @@ import HomeView from "../views/HomeView";
 import MovieView from "../views/MovieView";
 import BookView from "../views/BookView";
 import BroadcastView from "../views/BroadcastView";
+import GroupView from "../views/GroupView";
 
 Vue.use(Router);
 
@@ -30,7 +31,8 @@ export default new Router({
         },
         { path: "movie", name: "MovieView", component: MovieView },
         { path: "book", name: "BookView", component: BookView },
-        { path: "broadcast", name: "BroadcastView", component: BroadcastView }
+        { path: "broadcast", name: "BroadcastView", component: BroadcastView },
+        { path: "group", name: "GroupView", component: GroupView }
       ]
     }
   ]
